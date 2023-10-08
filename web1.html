@@ -4,8 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{margin: 0;
+        padding: 0;
+        box-sizing: 0;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        .banner
+        {background-color: aliceblue;
+         height: 100vh;
+         width: 100%;
+         
+       
+        
+       }
+       .navbar{
+        height: 80px;width: 100%;
+        background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+        display: flex;
+        align-items: center;
+    
+        justify-content: space-around;
+
+        
+       }
+       .navbar h1
+       {cursor: pointer;
+        color:aliceblue;
+        font-weight: bold;
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+       }
+
+       .banner  .navbar ul{
+        display: flex;
+        justify-content: space-around;
+       }
+
+       .navbar ul li{
+        list-style-type: none;
+        margin: 0 20px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        
+        
+       }
+       .navbar ul li a{text-decoration: none;color: aliceblue;}
+
+       .content
+       {
+        height: 500px; width: 100%;
+        background-color: aqua;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px;
+        margin-right: 60px;
+        margin-bottom: 80px;
+      
+    }
+
+       .content .content1 img{height: 400px;width: 700px;}
+       .content .content2{height: 300px;width: 400px;}
+       .content  .content2 h1
+       {
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);}
+        
+       .content .content2 p
+       {font-size: 20px;
+        padding: 20px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;overflow: hidden;max-height: 200px;
+        }
+       
+      .content .content2 input
+      {
+        font-size: 30px;
+        cursor: pointer;
+        margin: 2 4px;
+        padding: 16px 32px;
+        border-radius: 20px;
+        color: aliceblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+        
+    }
+    .content .content2 input:hover {
+    background-image: linear-gradient(111.4deg, rgba(27,24,113,1) 6.5%, rgba(7,7,9,1) 93.2%);
+    /* Düymənin arxa planını hover zaman dəyişdirir */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    /* Düymənin üzünə gölge əlavə edir hover zaman */
+    transform: scale(1.1);
+    /* Düymənin ölçüsünü böyüdürür hover zaman */
+}
+
+.section{ display: flex;
+    justify-content: center; 
+    align-items: center; }
+
+.section .sec1{
+    height: 200px;
+    width: 80%;
+    background-color: #393A3F;
+    border-radius: 3%;display: flex;align-items: center;text-align: center;
+
+}
+.section .sec1 h1{}
+
+    </style>
+
+
+
 </head>
 <body>
+    <div class="banner">
+        <div class="navbar">
+            <h1>Start Bootstrap</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                
+            </ul>
+        </div>
+    <div class="content">
+        <div class="content1">
+
+            <img src="business.png" alt=""> 
+
+        </div>
+
+        <div class="content2">
+            <h1>Business Name or Tagline</h1>
+            <p>This is a template that is great for small businesses. 
+            It doesn't have too much fancy flare to it, but it makes
+             a great use of the standard Bootstrap core components. 
+             Feel free to use this template for any project you want!</p>
+             <div><input type="submit" value="Call to Action!"></div>
+
+        </div>
+    </div>
+
+    <div class="section">
+
+        <div class="sec1">
+            <h1>
+                This call to action card is a great place to showcase some important information or display a clever tagline!
+            </h1>
+
+        </div>
+
+
+    </div>
+    </div>
     
 </body>
 </html>
