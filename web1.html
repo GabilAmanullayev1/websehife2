@@ -54,7 +54,7 @@
        .content
        {
         height: 500px; width: 100%;
-        background-color: aqua;
+        background-color: bisque;
         display: flex;
         justify-content: space-around;
         margin-top: 60px;
@@ -94,7 +94,7 @@
     background-image: linear-gradient(111.4deg, rgba(27,24,113,1) 6.5%, rgba(7,7,9,1) 93.2%);
     /* Düymənin arxa planını hover zaman dəyişdirir */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    /* Düymənin üzünə gölge əlavə edir hover zaman */
+    /* Düymənin üzünən kölge əlavə edir hover zaman */
     transform: scale(1.1);
     /* Düymənin ölçüsünü böyüdürür hover zaman */
 }
@@ -110,7 +110,49 @@
     border-radius: 3%;display: flex;align-items: center;text-align: center;
 
 }
-.section .sec1 h1{}
+ .box{height: 300px;width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+ }
+ .box .box1{
+    border:groove 10px; margin: 15px; background-color: white; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 16px;
+ }
+ .box .box1 h1{margin: 20px;
+    
+ }
+ 
+ .box .box1  .input{background-color: #393A3F;}
+
+ .box .box1  .input input{font-size: 15px;
+        cursor: pointer;
+        margin: 2 4px;
+        padding: 4px 8px;
+        border-radius: 20px;
+        color: aliceblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+ } 
+ .box .box1 .input input:hover {
+    background-image: linear-gradient(111.4deg, rgba(27,24,113,1) 6.5%, rgba(7,7,9,1) 93.2%);
+    /* Düymənin arxa planını hover zaman dəyişdirir */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    /* Düymənin üzünən kölge əlavə edir hover zaman */
+    transform: scale(1.1);
+    /* Düymənin ölçüsünü böyüdürür hover zaman */
+}
+
+.footer{height: 200px;width: 100%;
+     background-color: #393A3F;
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.footer h1{font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center ; color: aliceblue; font-size: 20px;}
+
 
     </style>
 
@@ -156,6 +198,38 @@
 
         </div>
 
+
+    </div>
+
+
+    <div class="box">
+        <div class="box1">
+            <h1>Card One</h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <div class="input"><input type="submit" value="More info"></div>
+
+        </div>
+        <div class="box1">
+            <h1>Card One</h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <div class="input"><input type="submit" value="More info"></div>
+
+        </div>
+        <div class="box1">
+            <h1>Card One</h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <div class="input"><input type="submit" value="More info"></div>
+
+        </div>
+        
+    </div>
+
+
+    <div class="footer">
+        <h1>Copyright © Your Website 2023</h1>
 
     </div>
     </div>
